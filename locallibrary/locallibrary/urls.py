@@ -20,9 +20,9 @@ from django.views.generic import RedirectView
 from django.conf import settings
 from django.conf.urls.static import static
 
-admin.site.site_header = "Baran-Shop Admin"
-admin.site.site_title = "Baran-Shop Admin Portal"
-admin.site.index_title = "Welcome to the baran-shop Portal"
+admin.site.site_header = "Local Library Admin"
+admin.site.site_title = "Local Library Admin Portal"
+admin.site.index_title = "Welcome to our Local Library Portal"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
